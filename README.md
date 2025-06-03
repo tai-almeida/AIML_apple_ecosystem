@@ -45,9 +45,9 @@ Apple uses custom-designed chips, as A-series (designed for iPhones and iPads) a
 Apple Intelligence is designed to provide more interactive user experience, ensuring high privacy and security. As previously pointed, Apple Intelligence is not based o Cloud Processing, as most AI models are: the computation happens locally on the device, making it safer and faster.
 
 It centers around 4 main features:
-- Image Playground: manipulate and generate images with advanced AI Models.  
-- Writing tools: writing assistents that offers with brainstorming, correcting and refining your text  
-- Genmoji: emoji generation with vision prompts and AI customization
-- Siri: updated version of Apple's voice assistent. It is integrated with ChatGPT, handling more complex commands.
+- **Image Playground**: manipulate and generate images with advanced AI Models.  
+- **Writing tools**: writing assistents that offers with brainstorming, correcting and refining your text  
+- **Genmoji**: emoji generation with vision prompts and AI customization
+- **Siri**: updated version of Apple's voice assistent. It is integrated with ChatGPT, handling more complex commands.
   
 
