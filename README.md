@@ -29,7 +29,7 @@ Apple uses custom-designed chips, as A-series (designed for iPhones and iPads) a
 ## ML Development Workflow on Apple Platforms
 
 1. **Create or train a model:** Use Create ML to develop custom models or leverage pre-trained ones.
-2. **Convert the model:** Use Core ML Tools to convert models from popular ML frameworks into `.mlmodel` format.
+2. **Convert the model:** Use Core ML Tools to convert models from popular ML frameworks into .mlmodel format.
 3. **Integrate into your app:** Import the model as an asset in Xcode and use the Core ML framework to perform inference.
 4. **Run on-device:** All processing happens locally, ensuring high performance and user data privacy.
 
@@ -39,3 +39,15 @@ Apple uses custom-designed chips, as A-series (designed for iPhones and iPads) a
 - **Privacy:** Local processing eliminates the need to send data to the cloud.
 - **Developer-friendly:** Integrated frameworks and powerful APIs speed up development.
 - **Support for advanced models:** Compatible with modern models including large
+
+## Apple Intelligence
+
+Apple Intelligence is designed to provide more interactive user experience, ensuring high privacy and security. As previously pointed, Apple Intelligence is not based o Cloud Processing, as most AI models are: the computation happens locally on the device, making it safer and faster.
+
+It centers around 4 main features:
+- Image Playground: manipulate and generate images with advanced AI Models.  
+- Writing tools: writing assistents that offers with brainstorming, correcting and refining your text  
+- Genmoji: emoji generation with vision prompts and AI customization
+- Siri: updated version of Apple's voice assistent. It is integrated with ChatGPT, handling more complex commands.
+  
+
