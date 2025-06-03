@@ -50,4 +50,10 @@ It centers around 4 main features:
 - **Genmoji**: emoji generation with vision prompts and AI customization
 - **Siri**: updated version of Apple's voice assistent. It is integrated with ChatGPT, handling more complex commands.
   
+## Additional Tools and Frameworks
+- **MLX**  
+- **MSP Graph**  
+- **Metal Performance Shaders**
+- **Accelerate Framework**
+
 
