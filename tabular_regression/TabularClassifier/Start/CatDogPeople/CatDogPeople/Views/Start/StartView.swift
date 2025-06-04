@@ -62,11 +62,11 @@ struct StartView: View {
     }
 }
 
-#Preview {
-    @Previewable @State var navigation = Navigation()
+// #Preview {
+//     @Previewable @State var navigation = Navigation()
     
-    NavigationStack(path: $navigation.path) {
-        StartView()
-    }
-    .environment(navigation)
-}
+//     NavigationStack(path: $navigation.path) {
+//         StartView()
+//     }
+//     .environment(navigation)
+// }

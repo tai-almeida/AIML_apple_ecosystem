@@ -16,6 +16,8 @@ class QuestionnarieData {
     var conciencious: Int64 = 0
     var socialMediaTime: Int64 = 0
     var petPhotos: Int64 = 0
+
+    var catDogPeople: CatDogPeopleClassifier?
     
 
     
@@ -37,6 +39,8 @@ class QuestionnarieData {
         self.petPhotos = petPhotos
         self.processing = processing
         self.personalityResult = personalityResult
+        self.catDogPeople = try? CatDogPeopleClassifier(configuration:
+                                                            MLModelConfiguration())
 
     }
     
@@ -52,11 +56,35 @@ class QuestionnarieData {
     }
     
     func predict() async {
+        guard let catDogPeople else {
+            return
+        }
+
         await MainActor.run {
             processing = true
         }
         do {
             //TODO: Here the model will be called to make a prediction
+            let input = CatDogPeopleClassifierInput(livingSituation: housing.rawValue,
+                                                    extraversion: extraversion,
+                                                    conscientiousness: conciencious,
+                                                    socialMediaTime: Double(socialMediaTime),
+                                                    photosPet: petPhotos)
+
+            let prediction = try await catDogPeople.prediction(input: input)
+
+            let type = PersonalityType(rawValue: prediction.petType)
+
+            let confidence = prediction.petTypeProbability[prediction.petType]
+
+            if type, confidence {
+                await setResult(PersonalityResult(type: type,
+                                confidence: confidence))              
+            } else {
+                await setResult(PersonalityResult(type: .none,
+                                                    confidence: 0))  
+            }
+
             try await Task.sleep(for: .seconds(2))
             await setResult(PersonalityResult(type: .dog,
                                               confidence: 0.55))
