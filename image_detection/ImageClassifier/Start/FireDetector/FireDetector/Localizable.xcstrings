@@ -1,0 +1,214 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "APP_DESCRIPTION" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Using advanced AIML image detection, this app monitors for signs of fire through visual analysis, instantly alerting you for potential hazards."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Usando avançadas técnicas de detecção de imagens com IAAM, este app monitora sinais de incêndio através de análise visual, instantaneamente alertando você no caso de riscos potenciais."
+          }
+        }
+      }
+    },
+    "APP_NAME" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fire detector"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Detector de Incêndios"
+          }
+        }
+      }
+    },
+    "BUG_CONFIDENCE" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Unfortunately I cannot help at this time!"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Infelizmente, não consigo auxiliar neste momento!"
+          }
+        }
+      }
+    },
+    "BUG_LABEL" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "An error has occurred!"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Um erro ocorreu!"
+          }
+        }
+      }
+    },
+    "CONFIDENCE_LABEL %@" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@%% confidence"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Confiabilidade de %@%%"
+          }
+        }
+      }
+    },
+    "FIRE_RESULT_LABEL" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "It is a fire!"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "É um incêndio!"
+          }
+        }
+      }
+    },
+    "NO_DETECTION_CONFIDENCE %@" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Just about %@%% confidence. Seek for a fireman help just in case…"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Apenas uma confiabilidade de %@%%. Procure a ajuda de um bombeiro por precaução…"
+          }
+        }
+      }
+    },
+    "NO_DETECTION_LABEL" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Unable to detect a fire!"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Não consegui detectar um incêndio"
+          }
+        }
+      }
+    },
+    "NOT_FIRE_RESULT_LABEL" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Keep calm!\nIt is not a fire."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mantenha a calma!\nNão é um incêndio."
+          }
+        }
+      }
+    },
+    "PRIVACY_DISCLAIMER" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "We do not collect any of the data. \nThe model is intended for educational purposes only."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Não coletamos nenhum de seus dados. O modelo é destinado apenas com propósitos educacionais."
+          }
+        }
+      }
+    },
+    "SELECT_BUTTON_LABEL" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Select a photo"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Selecione uma foto"
+          }
+        }
+      }
+    },
+    "TEST_AGAIN_LABEL" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Try the test again"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Faça o teste novamente!"
+          }
+        }
+      }
+    },
+    "WAITING_LABEL" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The model is processing your data, please wait for a while!"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "O modelo está processando seus dados, por favor aguarda de um momento!"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}
